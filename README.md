@@ -43,6 +43,28 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 Esse projeto está sob a licença MIT.
 
+## Anotações
+
+- **Regex**:
+
+```js
+// agrupa os padrões em um array
+const matches = 'aBC'.match(/[A-Z]/g) // g = global
+// Output: Array [B,C]
+
+// pesquisa se existe ou não o padrão
+const index =  'aBC'.search(/[A-Z]/)
+// Output: 1
+
+substitui os padrões por novo valor
+const next = 'aBC'.replace(/a/,'A')
+// Output: ABC
+```
+
+<p align="center">
+  <img alt="cheatsheet regex" src=".github/cheatsheet_regex.png" width="100%">
+</p>
+
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
